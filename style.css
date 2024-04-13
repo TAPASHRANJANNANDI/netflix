@@ -149,9 +149,6 @@ nav button {
     position: absolute;
     top: 46%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -213,10 +210,6 @@ section.first>div :nth-child(2) {
 .faqbox:hover {
     background-color: #414141;
     color: white;
-}
-
-.faqbox svg {
-    filter: invert(1);
 }
 
 .faqbox {
@@ -312,6 +305,14 @@ footer {
     flex-direction: column;
     gap: 23px;
 }
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+}
+.end{
+    align-self: flex-end;
+}
+
 
 @media screen and (max-width: 1300px) {
 
